@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnTestPush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тестовое Push-уведомление" />
+
+    <Button
+        android:id="@+id/btnOpenLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть логи"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnUpdatePatterns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить шаблоны"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnScanQr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сканировать QR"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:shape="rectangle"
+        />
+    <Button
+        android:id="@+id/btnManualPing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пинг"
+        android:layout_marginTop="16dp"
+        />
+</LinearLayout>
+
+

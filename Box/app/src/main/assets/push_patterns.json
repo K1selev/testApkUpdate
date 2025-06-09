@@ -1,0 +1,14 @@
+[
+  {
+    "id": 100,
+    "name": "TELEGRAM_MESSAGE_PATTERN",
+    "pattern": ".*",
+    "package": "org.telegram.messenger"
+  },
+  {
+    "id": 200,
+    "name": "TEST_PUSH_PATTERN",
+    "pattern": "^Test Push\\s.+",
+    "package": "com.example.box"
+  }
+]
